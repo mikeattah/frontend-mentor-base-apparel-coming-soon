@@ -2,13 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
-    />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="HandheldFriendly" content="true" />
-    <!-- displays site properly based on user's device -->
+    <meta name="MobileOptimized" content="width" />
 
     <link
       rel="icon"
@@ -17,35 +13,13 @@
       href="./images/favicon-32x32.png"
     />
 
-    <!-- Font Awesome 4 -->
+    <!-- My personal font awesome 5 kit -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <!-- Font Awesome 5 -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
-      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
       crossorigin="anonymous"
     />
-    <!-- jQuery Library & File, always update file -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="practicescript003.js"></script>
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <!-- Bootstrap -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <!-- Your personal font awesome 5 kit: -->
-    <script
-      src="https://kit.fontawesome.com/ddc4c3e78e.js"
-      crossorigin="anonymous"
-    ></script>
-
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
 
     <title>Frontend Mentor | Base Apparel coming soon page</title>
 
@@ -59,12 +33,17 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <img src="./images/logo.svg" class="logo" alt="Base Apparel logo" />
-    <div class="container">
-      <div class="section-one">
-        <h2 class="header-1">WE'RE</h2>
-        <h2 class="header-2">COMING</h2>
-        <h2 class="header-3">SOON</h2>
+    <header>
+      <img src="./images/logo.svg" class="logo" alt="Base Apparel logo" />
+    </header>
+    <main class="container">
+      <section class="section-one">
+        <h1>
+          <span class="header-1">WE'RE</span><br /><span class="header-2"
+            >COMING</span
+          ><br />
+          <span class="header-3">SOON</span>
+        </h1>
         <p class="text">
           Hello fellow shoppers! We're currently building our new fashion store.
           Add your email below to stay up-to-date with announcements and our
@@ -83,15 +62,15 @@
             class="fa fa-exclamation-circle warning-icon"
             aria-hidden="true"
           ></i>
-          <button class="bttn" type="submit">
+          <button class="bttn" type="submit" aria-label="Submit">
             <ion-icon name="chevron-forward-outline"></ion-icon>
           </button>
           <span id="warningtext" class="warning-text"
             >Please provide a valid email</span
           >
         </form>
-      </div>
-      <div class="section-two">
+      </section>
+      <section class="section-two">
         <img
           src="./images/hero-desktop.jpg"
           alt="main hero - a lady in an orange dress"
@@ -102,17 +81,33 @@
           alt="main hero - a lady in an orange dress"
           class="hero-image-mobile"
         />
-      </div>
-    </div>
+      </section>
+    </main>
     <footer class="attr">
       <p class="attribution">
         Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          rel="noopener noreferrer"
           >Frontend Mentor</a
         >. Coded by
-        <a href="https://twitter.com/miikeattah" target="_blank">Mike Attah</a>.
+        <a
+          href="https://twitter.com/miikeattah"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Mike Attah</a
+        >.
       </p>
     </footer>
     <script src="index.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
