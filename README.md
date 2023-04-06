@@ -11,7 +11,7 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Continued development](#continued-development)
-- [Mike Attah](#author)
+- [Michael Attah](#author)
 
 ## Overview
 
@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/html-css-javascript-jquery-3GJqRUAdi)
-- Live Site URL: [Github Pages](https://your-live-site-url.com)
+- View Submission: [Frontend Mentor](https://www.frontendmentor.io/solutions/html-css-javascript-jquery-3GJqRUAdi)
+- View Site: [Github Pages](https://mikeattah.github.io/frontend-mentor-base-apparel-coming-soon/)
 
 ## My process
 
@@ -51,6 +51,6 @@ I continue to have challenges with writing regular expressions. I will learn mor
 
 ## Author
 
-- Website - [Mike Attah](https://mikeattah.com)
-- Frontend Mentor - [@mikeattah](https://www.frontendmentor.io/profile/mikeattah)
-- Twitter - [@miikeattah](https://www.twitter.com/miikeattah)
+- Website: [Michael Attah](https://mikeattah.com)
+- Frontend Mentor: [@mikeattah](https://www.frontendmentor.io/profile/mikeattah)
+- Twitter: [@mikeattahh](https://www.twitter.com/mikeattahh)
